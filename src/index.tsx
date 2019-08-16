@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { TodoApp } from "./Router";
+import { MyApp } from "./Router";
 
 ReactDOM.render(
-    <TodoApp />,
+    <MyApp />,
     document.getElementById("main")
 );

@@ -15,7 +15,7 @@ const store = createStore(
 
 const history = createHistory();
 
-const TodoApp = () => (
+const MyApp = () => (
   <>
     <Provider store={store}>
       <ThemeProvider theme={theme}>
@@ -27,4 +27,4 @@ const TodoApp = () => (
   </>
 );
 
-export { TodoApp };
+export { MyApp };
